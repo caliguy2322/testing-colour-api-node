@@ -1,7 +1,7 @@
 version: "3"
 services:
   testing-colour-api-node:
-    container_name: testing_py_node
+    container_name: testing_colour_api
     build:
       context: .
       dockerfile: Dockerfile
